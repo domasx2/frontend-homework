@@ -8,8 +8,6 @@ import { SendError } from './components/SendError';
 function App() {
 
   const [files, setFiles] = useState<File[] | null>(null)
-
-  console.log(files)
   
   const parsedFilesBag = useParsedFiles(files)
 
